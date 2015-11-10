@@ -1,0 +1,11 @@
+
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\N \K \threequarters \questiondown \Agrave \Aacute \Acircumflex 
+	\Atilde \u0209 \n ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

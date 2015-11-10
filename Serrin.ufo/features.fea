@@ -1,0 +1,30 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+feature aalt {
+# automatic
+feature salt;
+feature ss01;
+} aalt;
+
+feature salt {
+# automatic
+sub E by E.ss01;
+sub H by H.ss01;
+sub M by M.ss01;
+sub Q by Q.ss01;
+sub R by R.ss01;
+sub Z by Z.ss01;
+} salt;
+
+feature ss01 {
+# automatic
+sub E by E.ss01;
+sub H by H.ss01;
+sub M by M.ss01;
+sub Q by Q.ss01;
+sub R by R.ss01;
+sub Z by Z.ss01;
+} ss01;
+

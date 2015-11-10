@@ -1,0 +1,9 @@
+
+
+@GDEF_Simple = [\Y \O \m \X \x \Z ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

@@ -1,0 +1,9 @@
+
+
+@GDEF_Simple = [\m \M \N \uni0000 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
